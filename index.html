@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Blockversity</title>
   </head>
-  <body class="bg-gradient-to-br from-[#F0CAFF] via-[#4D267D] to-[#4D267D] text-white">
+  <body class="overflow-auto bg-gradient-to-br from-[#F0CAFF] via-[#4D267D] to-[#4D267D] text-white">
     <!-- Navbar -->
-    <nav class="relative container mx-auto p-6 ">
+    <nav class="relative container mx-auto p-6">
       <!-- Flex container -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
@@ -37,38 +37,33 @@
       </div>
 
       <!-- Mobile Menu -->
-      <div class="md:hidden">
-        <div
-          id="menu"
-          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
-        >
-          <a href="#">About</a>
-          <a href="#">NFT Marketplace</a>
-          <a href="#">Creators</a>
-          <a href="#">knOWLedge Society</a>
-        </div>
-      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col px-6 mx-auto mt-10 space-y-0 md:space-y-0 justify-center md:flex-col md:items-center md:justify-center"
+        class="container flex flex-col px-6 mx-auto mt-20 md:justify-center md:flex-col md:items-center"
       >
         <!--First item -->
         <!-------------->
-
-          <!-------------->
-          <div class="flex mb-32 space-y-12 md: items-center">
+        <div class="flex space-y-12 mb-10 md:items-center">
             <h2
-            class="max-w-md text-4xl font-bold text-center md:text-6xl md:text-center"
+            class="max-w-md text-4xl font-bold text-center md:text-4xl md:text-center"
+            >
+            ONLINE EDUCATORS
+            </h2>
+          </div>
+          <!-------------->
+          <div class="flex space-y-12 mb-10 md:items-center">
+            <h2
+            class="max-w-md text-2xl font-bold text-center md:text-2xl md:text-center"
             >
             NOW IS 
             </h2>
           </div>
           <!-------------->
-          <div class="flex mb-32 space-y-12 md: items-center">
+          <div class="flex space-y-12 mb-10 md: items-center">
             <h2
             class="max-w-md text-4xl font-bold text-center md:text-4xl md:text-center "
             >
@@ -76,14 +71,14 @@
             </h2>
           </div>
             <!-------------->
-            <div class="flex mb-32 space-y-12 font-bold text-center md: items-center md:text-l md:text-center">
+            <div class="flex space-y-12 text-center mb-5 md: items-center md:text-l md:text-center">
                 It is time to really own your content, time to own relationships with your
                 students, time to monetize on your own terms and to keep the lion’s share   
               </div>
 
               <!-------------->
 
-              <div class="flex mb-32 space-y-12 font-bold text-center md: items-center md:text-l md:text-center">
+              <div class="flex mb-32 space-y-12 text-center md: items-center md:text-l md:text-center">
                 BlockVersity is your way into the Web3 era
 We are an NFT Marketplace and community for online education
               </div>
@@ -188,7 +183,7 @@ We are an NFT Marketplace and community for online education
     <!--Waitlist Section-->
     <section id="waitlist">
         <div class="container flex  px-6 mx-auto mt-10 space-y-0 md:space-y-0 justify-center">
-            <h2 class="max-w-md text-4xl font-bold text-center">
+            <h2 class="text-4xl font-bold text-center">
                 Ready to grow your business with NFTs?
             </h2>
         </div>
@@ -198,10 +193,10 @@ We are an NFT Marketplace and community for online education
             >
               <!-- What's Different -->
               <div class="flex flex-col space-y-12 md:w-1/2">
-                <img src="img/mascot.png" style="height: 70%; width: 75%;">
-                <p class="max-w-sm text-center text-white text-3xl md:text-left">
+                <img src="img/mascot.png" class="px-10">
+                <p class="max-w-sm text-center text-white text-2xl italic md:text-left">
                     Hi, I am Master Wisdom
-                    Head of the KnOWLedge Society
+                    Head of the <strong>KnOWLedge Society</strong> 
                     Looking forward to meeting you! 
                 </p>
               </div>
@@ -244,18 +239,12 @@ We are an NFT Marketplace and community for online education
               <div
               class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
               <!-- Heading -->
-              <div class="rounded-l-full md:bg-transparent">
-                <div class="flex items-center space-x-2">
-                  <div
-                    class="px-1 py-2 text-white"
-                  >
+              <div class="rounded-l-full space-y-2 md:space-x-2">
                     <img src="img/tick.svg">
-                  </div>
-                </div>
               </div>
     
               <div>
-                <p class="hidden md:block">
+                <p>
                     Unlock access to our very generous referral program. Access to the referral program is limited. 
                     Early members will get more benefits, dont wait, join now!
                 </p>
@@ -316,35 +305,36 @@ We are an NFT Marketplace and community for online education
     <section id="cta">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-col md:space-y-0"
+        class="container flex flex-col items-center px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-col md:space-y-0"
       >
         <!-- Heading -->
         <!-- Button -->
         <div>
         </div>
                 <!-- Input Container -->
-                <div class="flex flex-col justify-between">
+                <div class="flex flex-col space-y-10 justify-center">
                     <div>
                         <a
-                          href="#"
+                          id="form-toggle"
                           class="p-3 px-6 pt-2 text-white bg-[#C05DEE] rounded-full shadow-2xl baseline hover:bg-gray-900"
                           > Join the KnOWLedge Society waitlist</a
                         >
                       </div>
-                    <form>
-                      <div class="flex space-x-3">
+                    <form id="form" action="https://formsubmit.co/reyane.a.remache@gmail.com" method="POST" >
+                      <div class="flex flex-col space-y-10">
                         <input
                           type="text"
-                          class="flex-1 px-4 rounded-full focus:outline-none"
+                          class="flex-1 px-4 rounded-full  focus:outline-none text-black"
                           placeholder="Name"
                         />
                         <input
                         type="text"
-                        class="flex-1 px-4 rounded-full focus:outline-none"
+                        class="flex-1 px-4 rounded-full focus:outline-none text-black"
                         placeholder="Email"
                       />
 
                         <button
+                            type="submit"
                           class="px-6 py-2 text-white rounded-full bg-[#C05DEE] hover:bg-brightRedLight focus:outline-none"
                         >
                         Submit
