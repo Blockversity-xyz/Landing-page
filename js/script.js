@@ -8,12 +8,3 @@ btn.addEventListener('click', () => {
   nav.classList.toggle('flex')
   nav.classList.toggle('hidden')
 })
-
-btn_form.addEventListener("click", () => {
-
-  if (div.style.display === "none") {
-    div.style.display = "block";
-  } else {
-    div.style.display = "none";
-  }
-});
