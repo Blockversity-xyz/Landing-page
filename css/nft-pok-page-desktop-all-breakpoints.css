@@ -346,7 +346,7 @@
   background-color: var(--purple-mountains-majesty);
   border-radius: 10px;
   display: flex;
-  height: 119px;
+  height: 160px;
   margin-left: 4.82px;
   margin-top: 11px;
   min-width: 241px;
@@ -375,7 +375,7 @@
   background-color: var(--purple-mountains-majesty);
   border-radius: 10px;
   display: flex;
-  height: 119px;
+  height: 160px;
   justify-content: flex-end;
   margin-left: 4.82px;
   margin-top: 26px;
@@ -427,7 +427,7 @@
 
 .nft-pok-mobile .overlap-group3 {
   align-self: center;
-  height: 83px;
+  height: 200px;
   margin-right: 3.0px;
   position: relative;
   width: 286px;
@@ -453,7 +453,7 @@
 }
 
 .nft-pok-mobile .sell-your-course-container {
-  height: 120px;
+  height: 160px;
   margin-right: 2px;
   margin-top: 25px;
   position: relative;
@@ -464,7 +464,7 @@
   background-color: var(--purple-mountains-majesty);
   border: 1px none;
   border-radius: 10px;
-  height: 119px;
+  height: 160px;
   left: 0;
   position: absolute;
   top: 0;
@@ -485,7 +485,7 @@
 .nft-pok-mobile .offer-perks-container {
   height: 124px;
   margin-right: 2px;
-  margin-top: 24px;
+  margin-top: 95px;
   position: relative;
   width: 241px;
 }
@@ -507,7 +507,7 @@
   border-radius: 10px;
   display: flex;
   height: 119px;
-  margin-top: 19px;
+  margin-top: 110px;
   min-width: 241px;
   padding: 13px 9px;
 }
@@ -1964,7 +1964,7 @@
   background-color: var(--purple-mountains-majesty);
   border-radius: 10px;
   display: flex;
-  height: 238px;
+  height: 310px;
   justify-content: flex-end;
   min-width: 229px;
   padding: 0 7px;
@@ -1992,7 +1992,7 @@
   background-color: var(--purple-mountains-majesty);
   border-radius: 10px;
   display: flex;
-  height: 238px;
+  height: 310px;
   justify-content: flex-end;
   margin-left: 17px;
   min-width: 230px;
@@ -2023,7 +2023,7 @@
   background-color: var(--purple-mountains-majesty);
   border: 1px none;
   border-radius: 10px;
-  height: 238px;
+  height: 310px;
   left: 0;
   position: absolute;
   top: 0;
@@ -2115,7 +2115,7 @@
   background-color: var(--purple-mountains-majesty);
   border: 1px none;
   border-radius: 10px;
-  height: 238px;
+  height: 310px;
   left: 2px;
   position: absolute;
   top: 0;
@@ -2138,7 +2138,7 @@
   background-color: var(--purple-mountains-majesty);
   border-radius: 10px;
   display: flex;
-  height: 238px;
+  height: 310px;
   margin-left: 14px;
   min-width: 229px;
   padding: 19px 3px;
